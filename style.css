@@ -1,0 +1,995 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+/* navbar__one styling section */
+
+.navbar__one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding: 80px;
+    color: #143C24;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 1;
+    
+    
+}
+
+
+.navbar__one__s1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar__one__s1 img {
+    height: 60px;
+    width: 60px;
+    color: #143C24;
+    
+}
+
+.navbar__one__s2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+    color: #143C24;
+}
+
+.navbar__one__s2 p {
+    border: solid white 1px;
+    padding: 10px;
+    font-size: 20px;
+
+
+}
+
+.navbar__one__s2 p:hover {
+    border: solid #E5E5E5 1px;
+    background-color: #E5E5E5;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.navbar__one__s3 {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    color: #002B11;
+}
+
+.navbar__one__s3 {
+    font-size: 20px;
+    align-items: center;
+}
+
+
+
+.hover__s3 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: solid white 1px;
+    padding: 10px;
+
+
+
+}
+
+.hover__s3 p {
+    padding-right: 20px;
+}
+
+.hover__s3 h3 {
+    color: #E5E5E5;
+}
+
+.navbar__one__s3 button {
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #143C24;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.hover__s3:hover {
+    background-color: #E5E5E5;
+    border: solid #E5E5E5 1px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.navbar__one__s3 button:hover {
+    opacity: 0.9;
+}
+
+/* navbar__one styling section end */
+
+
+/* navbar__two styling section */
+.navbar__two{
+    text-align: center;
+}
+
+.navbar__two__s1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 60px;
+    color: #002B11;
+}
+
+.navbar__two__s2{
+    display: flex;
+    font-size: 25px;
+    margin-top: 40px;
+    gap: 30px;
+    cursor: pointer;
+    margin-left: 16%;
+    
+}
+
+.home{
+    border-bottom:solid #002B11 3px;
+    padding-bottom: 5px;
+}
+
+.navbar__two__s2 p:hover{
+    border-bottom:solid #002B11 3px;
+    padding-bottom: 5px;
+}
+
+.navbar__two__s3{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 18%;
+    margin-right: 14%;
+    border: solid #c4c4c4 3px;
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    align-items: center;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__two__s3 p,button,input{
+    font-size: 23px;
+    
+}
+
+.navbar__two__s3 button{
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #00D352;
+    font-size: 18px;
+    
+    
+}
+
+.navbar__two__s3 input{
+    border: none;
+    margin-left: 5px;
+    width: 900px;
+}
+
+.navbar__two__s3 input:focus{
+    outline: none;
+}
+
+.navbar__two__s3 p,button{
+    cursor: pointer;
+}
+
+/* navbar__two styling section end */
+
+/* big__foodpic styling section */
+
+.big__foodpic{
+    margin-top: 60px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.big__foodpic img{
+    width: 1420px;
+    height: 600px;
+    border: solid black 1px;
+    border-radius: 20px;
+    
+    
+}
+
+.img__text{
+    color: black;
+    font-size: x-large;
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+    
+}
+
+.h1__h4 h1,h4{
+    background-color: #c4c4c4;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.h1__h4:hover{
+    opacity: 0.8;
+}
+
+
+.img__text p:hover{
+    background-color: #f1ebeb;
+}
+.img__text p{
+    border: solid white 1px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    width: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.logo{
+    background-color: #c4c4c4;
+    border: solid #c4c4c4 1px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    left: 1270px;
+    bottom:430px ;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.logo h3{
+    color: black;
+}
+
+.some__texts{
+    padding-top: 80px;
+    padding-left: 70px;
+    font-size: 20px;
+    
+}
+
+.some__texts h2,p{
+    padding: 5px;
+
+}
+
+.some__texts p{
+    color: gray ;
+}
+
+
+/* big__foodpic styling section end */
+
+/* menu pictures styling section */
+
+.menu__pics{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.menu__pics img{
+    height: 300px;
+    width: 330px;
+    border: solid black 1px;
+    border-radius: 20px;
+    
+    
+    
+}
+
+.menu__pics img:hover{
+    opacity: 0.8;
+}
+
+.menu__pics h2{
+    text-align: center;
+}
+
+/* menu pictures styling section end */
+
+/* mid card styling section */
+
+.mid__card{
+    display: flex;
+    background-color: #efe9e9;
+    border: solid #efe9e9 1px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.mid__card__s1 img{
+    height: 200px;
+    height: 200px;
+    border: solid #fcfcfc 1px;
+    border-radius: 20px;
+    rotate: -3deg;
+}
+
+.mid__card__s2 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.mid__card__s2 p{
+    color: gray;
+    padding-top: 40px;
+    font-size: 20px;
+
+}
+
+.mid__card__s3 h3{
+    border:solid black 2px ;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 250px;
+    margin-top: 150px;
+
+}
+
+.mid__card__s3 h3:hover{
+    background-color: #efe9e9;
+}
+/* mid card styling section end */
+
+/* Explore images styling section */
+.explore__img__uptext{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.explore__img__uptext h1,h3{
+    padding: 5px;
+}
+
+.explore__img__uptext h3{
+    color: gray;
+}
+
+.explore__img__container{
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-right: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.b1,.b2,.b3,.b4{
+    width: 300px;
+}
+
+.explore__img__container img{
+    height: 300px;
+    width: 330px;
+    border: solid black 1px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+.explore__img__container :hover{
+    opacity: 0.8;
+}
+
+.me1,.me2,.me3,.me4{
+    width: 300px;
+}
+
+.must-explore__img{
+    margin-top: 100px;
+}
+
+.explore__img__container h6{
+    background-color: #f0ebeb;
+    border:solid #f0ebeb 1px ;
+    padding: 5px;
+    font-size: 14px;
+    width: 60px;
+}
+
+.explore__img__container h5{
+    background-color: #f0ebeb;
+    border:solid #f0ebeb 1px ;
+    padding: 5px;
+    font-size: 14px;
+    width: 120px;
+}
+
+.explore__img__container h2{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+/* Explore images styling section end*/
+
+/* mid card 2 styling section */
+
+.mid__card2{
+    display: flex;
+    background-color: #efe9e9;
+    border: solid #efe9e9 1px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.mid__card2__s1 img{
+    height: 200px;
+    height: 200px;
+    border: solid #fcfcfc 1px;
+    border-radius: 20px;
+    rotate: -3deg;
+}
+
+.mid__card2__s2 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.mid__card2__s2 p{
+    color: gray;
+    padding-top: 40px;
+    font-size: 20px;
+
+}
+
+.mid__card2__s3 h3{
+    border:solid black 2px ;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 630px;
+    margin-top: 150px;
+
+}
+
+.mid__card2__s3 h3:hover{
+    background-color: #efe9e9;
+}
+/* mid 2 card styling section end */
+
+/* inspiration styling section */
+
+.im__uptext{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.inspiration__img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+
+.inspiration__img img:hover{
+    opacity: 0.8;
+}
+
+.im1,.im2,.im3 p{
+    width: 350px;
+    
+}
+
+.inspiration__img p{
+    padding-top: 30px;
+    padding-left: 70px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.mid-p{
+    margin-left: 60px;
+}
+.inspiration__img img{
+    width: 450px;
+    height: 300px;
+    border: solid black 1px;
+    border-radius: 20px;
+}
+/* inspiration styling section end */
+
+
+/* things to do styling section*/
+
+.thingstodo__uptext{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.thingstodo__uptext h1,h3{
+    padding: 5px;
+}
+
+.thingstodo__uptext h3{
+    color: gray;
+}
+
+.thingstodo__img__container{
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-right: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.t1,.t2,.t3,.t4{
+    width: 300px;
+    
+}
+
+.thingstodo__img__container img{
+    height: 300px;
+    width: 330px;
+    border: solid black 1px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+.thingstodo__img__container :hover{
+    opacity: 0.8;
+}
+
+.thingstodo__img__container h6{
+    background-color: #f0ebeb;
+    border:solid #f0ebeb 1px ;
+    padding: 5px;
+    font-size: 14px;
+    width: 60px;
+    
+}
+
+.thingstodo__img__container h5{
+    background-color: #f0ebeb;
+    border:solid #f0ebeb 1px ;
+    padding: 5px;
+    font-size: 14px;
+    width: 80px;
+}
+
+.thingstodo__img__container h2{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+/* things to do styling section end */
+
+/* iconic places styling section */
+
+.ip__uptexts{
+    padding-top: 80px;
+    padding-left: 70px;
+    font-size: 20px;
+    
+}
+
+.ip__uptexts h2{
+    padding: 5px;
+
+}
+
+.ip__pics{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.ip__pics img{
+    height: 300px;
+    width: 330px;
+    border: solid black 1px;
+    border-radius: 20px;
+    
+    
+    
+}
+
+.ip__pics img:hover{
+    opacity: 0.8;
+}
+
+.ip__pics h2{
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
+/* iconic places styling section end */
+
+/* big card styling section */
+
+.big-card__container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E5E5E5;
+    padding: 30px;
+    margin: 60px;
+}
+
+.big-card__img img{
+    width: 700px;
+}
+
+.bc__s1{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+
+.bc__s1 img{
+    width: 600px;
+    padding-left: 40px;
+}
+
+.big-card__texts{
+    margin-left: 180px;
+    margin-top: 250px;
+    
+    
+}
+
+.big-card__texts h1{
+    font-size: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.big-card__texts img{
+    width: 40px;
+}
+
+.big-card__texts p{
+    width: 400px;
+    font-size: 18px;
+    padding-top: 10px;
+    
+}
+
+.bc__s1 p{
+    padding-left: 5px;
+}
+
+.big-card__texts h3{
+    border: solid black 2px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #143C24;
+    width: fit-content;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.big-card__texts h3:hover{
+    opacity: 0.8;
+}
+
+
+/* big card styling section end */
+
+/* browese themed collection */
+
+.btc__uptexts{
+    padding-top: 10px;
+    padding-left: 70px;
+    font-size: 20px;
+    
+}
+
+.btc__uptexts h2{
+    padding: 5px;
+
+}
+
+.btc__pics{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.btc__pics img{
+    height: 400px;
+    width: 330px;
+    border: solid black 1px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.btc__pics img:hover{
+    opacity: 0.8;
+}
+
+.btc__pics h2{
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
+/* browese themed collection end */
+
+/* footer  */
+
+.footers__container{
+    background-color: #E5E5E5;
+    padding-bottom: 10px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.footer p{
+    font-size: 18px;
+}
+
+.footer p:hover{
+    border-bottom: solid black 2px;
+}
+
+.footer__s2{
+    margin-left: 50px;
+}
+
+.footer__s3{
+    margin-left:50px ;
+}
+
+.footer__s4{
+    margin-left: 350px;
+}
+
+.footer2{
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer2 img{
+    width: 50px;
+    padding-top: 5px;
+    
+}
+
+.footer2__s2 p{
+    margin-left: 5px;
+}
+
+.s2__h3{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s2__h3 h3{
+    margin: 5px;
+    border-bottom: solid #E5E5E5 1px;
+}
+
+.s2__h3 h3:hover{
+    border-bottom: solid black 2px;
+}
+
+.footer3 h2{
+    border: solid black 2px;
+    border-radius: 10px;
+    height: fit-content;
+    background-color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+.footer3{
+    margin-left: 30px;
+}
+
+
+/* footer end */
+
+/* media query */
+
+@media screen and (max-width:630px) {
+    body{
+        font-size: 10px;
+        
+        
+    }
+
+    .img__text{
+        display: none;
+    }
+
+    .navbar__one__s2 {
+        display: none;
+    }
+
+    
+
+    .hover__s3{
+        display: none;
+    }
+
+    .navbar__two__s1{
+        display: none;
+    }
+
+    .navbar__two__s2{
+        display: block;
+        margin-left: -10px;
+        
+    }
+
+    
+
+    .navbar__two__s3 button{
+        display: none;
+    }
+
+    .menu__pics img{
+        height: 200px;
+        width: 220px;
+        
+        
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .big__foodpic img{
+        height: 510px;
+        width: 510px;
+        margin-left: -20px;
+        
+    }
+
+    .mid__card{
+        display: none;
+    }
+
+    .explore__img__uptext{
+        display: none;
+    }
+
+    .explore__img__container{
+        display: none;
+    }
+
+    .mid__card2{
+        display: none;
+    }
+
+    .big-card__container{
+        display: none;
+    }
+
+    .thingstodo{
+        display: none;
+    }
+
+    .ip__pics img{
+        width: 220px;
+        height: 220px;
+    }
+
+    .btc__pics img{
+        width: 220px;
+        height: 220px;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
