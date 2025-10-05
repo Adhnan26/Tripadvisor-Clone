@@ -22,10 +22,8 @@ This is a TripAdvisor Clone Website built using HTML and CSS, closely resembling
 
 ~ CSS3 for design and responsiveness
 
-📚 About
+🎓 Learning Source: This project was completed as part of the Error Makes Clever Academy course.
 
-This project was created as part of the Error Makes Clever Academy course to strengthen front-end development skills and practice real-world website design techniques.
+📌 How to View You can view the website directly here 👉 [  ]
 
-🔗 Live Demo
-
-👉 Click here to view the project
+Thank you for visiting my portfolio website.
