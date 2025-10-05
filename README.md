@@ -24,6 +24,6 @@ This is a TripAdvisor Clone Website built using HTML and CSS, closely resembling
 
 🎓 Learning Source: This project was completed as part of the Error Makes Clever Academy course.
 
-📌 How to View You can view the website directly here 👉 [  ]
+📌 How to View You can view the website directly here 👉 [  https://adhnan26.github.io/Tripadvisor-Clone/ ]
 
 Thank you for visiting my portfolio website.
